@@ -1,0 +1,123 @@
+body{
+     background-color: #000000;
+     margin: 0px;
+     border:0px;
+
+}
+
+header {
+        background-image: url("photo/iabanière.png");
+
+       
+
+}
+
+#banière{
+         width: 40%;
+
+
+
+}
+
+nav{
+  background-color:black;
+
+}
+
+main {
+
+      background-color: black;
+
+
+}
+
+h1{
+	color: #305FBB  ;
+	text-align: center;
+
+
+
+}
+
+
+h2{
+   color: #ABC0E9  ;
+   text-indent: 90px;
+
+}
+
+
+h3{
+
+   color:grey;
+
+}
+
+main {
+        color: white ;
+         margin-left: 200px;
+      margin-right: 200px;
+
+
+}
+
+
+
+nav p{
+
+font-size: 25px;
+}
+
+
+
+                  
+
+
+nav li {
+       list-style:none !important;
+       color:#FFF;
+       padding:10px;
+      font-size:1px;
+      text-decoration:none;
+}
+ 
+nav ul {
+
+
+margin:0;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:10px;
+display:inline-block; 
+font-size:20px; 
+background-color:black;
+
+}
+ 
+
+
+nav ul li a {
+color:#ABC0E9;
+padding:0px;
+text-decoration:none;
+}
+ 
+li a p:hover {
+border-bottom:3px #305FBB solid;
+padding-bottom: 10px;
+}
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+}
